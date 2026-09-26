@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(ejercicio_twitter ejercicio355_twitter/main.cpp)
 add_executable(ejercicio_spreadsheet ejercicio3484_spreadsheet/main.cpp)
+add_executable(ejercicio_robot_simulator ejercicio_robot_simulator/robot_simulator.cpp)
