@@ -15,3 +15,4 @@ add_executable(ejercicio_robot_simulator
 
 #Entrega 3
 add_executable(ejercicio_authentication_manager Entrega3/ejercicio1797_authentication_manager/main.cpp)
+add_executable(ejercicio_exam_tracker Entrega3/ejercicio3709_exam_tracker/main.cpp)
