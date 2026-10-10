@@ -27,3 +27,12 @@ add_executable(ejercicio_alquiler
     Entrega4/Ejercicio2/src/SistemaAlquiler.cpp
 )
 target_include_directories(ejercicio_alquiler PRIVATE Entrega4/Ejercicio2/include)
+
+add_executable(ejercicio_carrito 
+    Entrega4/Ejercicio3/src/main.cpp 
+    Entrega4/Ejercicio3/src/Producto.cpp 
+    Entrega4/Ejercicio3/src/ItemCarrito.cpp 
+    Entrega4/Ejercicio3/src/CarritoCompras.cpp 
+    Entrega4/Ejercicio3/src/Usuario.cpp
+)
+target_include_directories(ejercicio_carrito PRIVATE Entrega4/Ejercicio3/include)
