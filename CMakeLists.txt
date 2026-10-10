@@ -18,3 +18,12 @@ add_executable(ejercicio_bank_account Entrega3/ejercicio_bank_account/bank_accou
 # Entrega 4
 add_executable(ejercicio_biblioteca Entrega4/Ejercicio1/src/main.cpp Entrega4/Ejercicio1/src/Libro.cpp Entrega4/Ejercicio1/src/Biblioteca.cpp)
 target_include_directories(ejercicio_biblioteca PRIVATE Entrega4/Ejercicio1/include)
+
+add_executable(ejercicio_alquiler 
+    Entrega4/Ejercicio2/src/main.cpp 
+    Entrega4/Ejercicio2/src/Vehiculo.cpp 
+    Entrega4/Ejercicio2/src/Auto.cpp 
+    Entrega4/Ejercicio2/src/Bicicleta.cpp 
+    Entrega4/Ejercicio2/src/SistemaAlquiler.cpp
+)
+target_include_directories(ejercicio_alquiler PRIVATE Entrega4/Ejercicio2/include)
