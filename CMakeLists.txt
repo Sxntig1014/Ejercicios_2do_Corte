@@ -14,3 +14,7 @@ add_executable(ejercicio_authentication_manager Entrega3/ejercicio1797_authentic
 add_executable(ejercicio_exam_tracker Entrega3/ejercicio3709_exam_tracker/main.cpp)
 add_executable(ejercicio_crypto_square Entrega3/ejercicio_crypto_square/crypto_square.cpp Entrega3/ejercicio_crypto_square/crypto_square.h)
 add_executable(ejercicio_bank_account Entrega3/ejercicio_bank_account/bank_account.cpp Entrega3/ejercicio_bank_account/bank_account.h)
+
+# Entrega 4
+add_executable(ejercicio_biblioteca Entrega4/Ejercicio1/src/main.cpp Entrega4/Ejercicio1/src/Libro.cpp Entrega4/Ejercicio1/src/Biblioteca.cpp)
+target_include_directories(ejercicio_biblioteca PRIVATE Entrega4/Ejercicio1/include)
